@@ -1,0 +1,23 @@
+{% extends "layout.html" %} {% block body %}
+
+<nav>
+  <div class="left">
+    <a href="/">My<span class="billet">Billet</span></a>
+  </div>
+  <div class="right">
+    <a href="/boletos">API</a>
+  </div>
+</nav>
+
+<div class="container">
+  <h1>Sistema para gerenciar os boletos pagos da faculdade</h1>
+
+  <p>
+    <code>Pacotes: yarn add express cors multer nunjucks knex sqlite3</code>
+  </p>
+  <p><code>EndPoint: http://localhost:3005 </code></p>
+</div>
+
+{% endblock %} {% block style %}
+<link rel="stylesheet" href="/public/css/home.css" />
+{% endblock %}

@@ -1,0 +1,41 @@
+.container {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+nav {
+  height: 60px;
+  background-color: cadetblue;
+  max-width: 100%;
+  width: 100%;
+  margin: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+nav div.left {
+}
+nav div.right {
+}
+nav a {
+  font-weight: 900;
+  color: aliceblue;
+}
+nav span.billet {
+  color: chocolate !important;
+  margin-right: 5px;
+}
+p {
+  border-left: 1px solid rgb(51, 211, 113);
+  margin-bottom: 5px;
+}
+code {
+  height: 60px;
+  line-height: 30px;
+  color: rgb(199, 98, 98);
+  padding: 3px;
+  margin-left: 8px;
+}
